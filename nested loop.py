@@ -91,10 +91,20 @@
 
 #masala 8
 
-for i in range(1,6):
-    for j in range(1,6):
-        if i==j:
-            print("0",end=" ")
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i==j:
+#             print("0",end=" ")
+#         else:
+#             print("*" ,end=" ")
+#     print()
+
+#masala 9
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        if j <= i:
+            print("0", end=" ")
         else:
-            print("*" ,end=" ")
+            print("*", end=" ")
     print()
