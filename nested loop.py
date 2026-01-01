@@ -71,20 +71,30 @@
 #     print()
 
 #masala 7
-for i in range(1, 6):
-    for j in range(1, 6):
-        if i == 1:
-            print("#", end=" ")
-        elif j == 1:
-            print("#", end=" ")
-        elif i == 5:
-            print("#", end=" ")
-        elif i == 3:
-            print("#", end=" ")
-        elif j == 5:
-            print("#", end=" ")
-        elif j == 3:
-            print("#", end=" ")
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         if i == 1:
+#             print("#", end=" ")
+#         elif j == 1:
+#             print("#", end=" ")
+#         elif i == 5:
+#             print("#", end=" ")
+#         elif i == 3:
+#             print("#", end=" ")
+#         elif j == 5:
+#             print("#", end=" ")
+#         elif j == 3:
+#             print("#", end=" ")
+#         else:
+#             print("0", end=" ")
+#     print()
+
+#masala 8
+
+for i in range(1,6):
+    for j in range(1,6):
+        if i==j:
+            print("0",end=" ")
         else:
-            print("0", end=" ")
+            print("*" ,end=" ")
     print()
